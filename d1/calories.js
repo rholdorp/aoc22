@@ -28,3 +28,8 @@ var length = totalsArr.length;
 console.log(
   "Elf with most calories carries: " + totalsArr[length - 1] + " calories."
 );
+
+var sumTop3 =
+  totalsArr[length - 1] + totalsArr[length - 2] + totalsArr[length - 3];
+
+console.log("The top 3 elf carry " + sumTop3 + " calories together.");
