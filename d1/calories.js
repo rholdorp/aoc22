@@ -26,5 +26,5 @@ totalsArr.sort(function (a, b) {
 var length = totalsArr.length;
 
 console.log(
-  "Elf with most calories carries: " + totalsArr[length - 1] + "calories"
+  "Elf with most calories carries: " + totalsArr[length - 1] + " calories."
 );
