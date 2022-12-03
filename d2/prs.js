@@ -10,13 +10,13 @@ let score = 0;
 arr.forEach((element) => {
   switch (element) {
     case "A X":
-      score += 4;
+      score += 3;
       break;
     case "A Y":
-      score += 8;
+      score += 4;
       break;
     case "A Z":
-      score += 3;
+      score += 8;
       break;
     case "B X":
       score += 1;
@@ -28,13 +28,13 @@ arr.forEach((element) => {
       score += 9;
       break;
     case "C X":
-      score += 7;
-      break;
-    case "C Y":
       score += 2;
       break;
-    case "C Z":
+    case "C Y":
       score += 6;
+      break;
+    case "C Z":
+      score += 7;
       break;
     default:
       break;
