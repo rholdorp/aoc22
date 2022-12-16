@@ -1,7 +1,6 @@
 const readFileSync = require("fs").readFileSync;
 const input = readFileSync("input", { encoding: "utf-8" })
   .replace(/\r/g, "")
-  .trim()
   .trim();
 
 function isUnique(array) {
